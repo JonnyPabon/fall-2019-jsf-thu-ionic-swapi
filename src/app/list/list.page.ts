@@ -32,7 +32,7 @@ export class ListPage implements OnInit {
 
   ngOnInit() {
     
-    this.swapiSvc.getPlanets().subscribe(
+    this.swapiSvc.getPeople().subscribe(
       data => {
         console.log(data);
 
