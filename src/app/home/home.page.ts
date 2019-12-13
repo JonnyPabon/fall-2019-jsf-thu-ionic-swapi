@@ -7,7 +7,7 @@ import { SharedDataService } from '../shared-data.service';
   styleUrls: ['home.page.scss'],
 })
 export class HomePage {
-  /*   */
+  /*dependency injection*/
   constructor(private sharedDataSvc: SharedDataService) {}
 
 }
