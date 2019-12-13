@@ -20,5 +20,7 @@ export class SwapiService {
       const o7 = this.httpSvc.get('https://swapi.co/api/planets?page=7');
       
       return merge(o1, o2, o3, o4, o5, o6, o7);
+      
+
   }
 }
